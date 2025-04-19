@@ -1,0 +1,35 @@
+{
+    "name": "create-openai-tool",
+    "version": "1.0.0",
+    "description": "A CLI tool to create OpenAI tools",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build": "tsc"
+    },
+    "keywords": [
+      "OpenAI",
+      "CLI",
+      "tool"
+    ],
+    "author": "Your Name",
+    "license": "ISC",
+    "dependencies": {
+      "degit": "^2.8.4",
+      "yargs": "^17.7.2"
+    },
+    "devDependencies": {
+      "@types/node": "^22.14.1",
+      "eslint": "^8.23.0",
+      "typescript": "^5.8.3"
+    },
+    "bin": {
+      "create-openai-tool": "dist/cli/index.js"
+    },
+    "files": [
+      "bin",
+      "cli"
+    ],
+    "homepage": "https://github.com/nweingart/create-openai-tool#readme"
+  }

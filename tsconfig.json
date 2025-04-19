@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",
+      "module": "ESNext",
+      "moduleResolution": "Node",
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "strict": true,
+      "baseUrl": ".",
+      "outDir": "dist",
+      "paths": {
+        "*": ["node_modules/*"]
+      }
+    },
+    "include": ["cli/**/*.ts", "declarations.d.ts"]
+  }
